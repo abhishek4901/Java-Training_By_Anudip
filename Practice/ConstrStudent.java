@@ -1,7 +1,7 @@
  
 
  public class ConstrStudent{ 
-    int roll_no;
+    int roll_no; 
     String name;
     double percent;
 //constructor bnane liye class name phir class attribute
