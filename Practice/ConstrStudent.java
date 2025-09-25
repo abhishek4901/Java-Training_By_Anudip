@@ -6,7 +6,10 @@
     double percent;
 //constructor bnane liye class name phir class attribute 
     public ConstrStudent ( int roll_no,String name,double percent){ 
-  this.roll_no =roll_no;//this keyword ka use confustion ko dur krne liye krte 
+  this.roll_no =roll_no;//this keyword ka use confustion ko dur krne liye krte  
+
+
+     
   this.name= name; //this.class attribute and =funnction argument
   this.percent = percent;
 
