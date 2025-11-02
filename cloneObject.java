@@ -7,7 +7,7 @@ class Data {
 public class cloneObject { 
     public static void main(String[] args) {
         Data d1 = new Data();
-        d1.a = 10;
+        d1.a = 10; 
         d1.b = 20;
         /* deep copy 
         Data d3=new Data() ;
@@ -26,5 +26,6 @@ public class cloneObject {
         // also prints 50, because d2 and d1 refer to the same object
     }
 }
+
 
 
