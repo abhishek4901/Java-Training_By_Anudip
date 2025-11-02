@@ -4,7 +4,7 @@ class Data {
     int b;
 }
  
-public class cloneObject {
+public class cloneObject { 
     public static void main(String[] args) {
         Data d1 = new Data();
         d1.a = 10;
@@ -26,4 +26,5 @@ public class cloneObject {
         // also prints 50, because d2 and d1 refer to the same object
     }
 }
+
 
