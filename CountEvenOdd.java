@@ -4,7 +4,7 @@ public class CountEvenOdd {
         int arr[]={1,2,3,4,5,6};
         int n=arr.length;
         int odd=0,even=0;
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){ 
             if((arr[i]%2)==0)
             even +=1;
             else
